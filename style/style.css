@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  /* width: 71%; */
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+
+/* shaired style  */
+
+.header-container p,.failures-previous p,.failures-previous ul li{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+
+
+.primary-button{
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/* sharied style end  */
+
+/* header style  */
+#header{
+    background: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 140px;
+    
+
+}
+.header-container{
+    width: 525px;
+    margin: 216px 230px 166px auto;
+    text-align: right;
+    
+
+}
+
+.header-container h2{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.header-container p{
+    margin-bottom: 32px;
+}
+.primary-button{
+    color: white;
+    background-color:#F15B22;
+}
+
+
+/* header syle end  */
+
+
+/* failures section  */
+.failures-container{
+    display: flex;
+    align-items: center;
+    gap: 87px;
+}
+.failures-img-container img{
+    width: 670px;
+}
+.failures-previous h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.failures-previous p{
+    margin-bottom: 16px;
+}
+.failures-previous ul li{
+    list-style: none;
+}
