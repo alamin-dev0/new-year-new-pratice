@@ -6,7 +6,6 @@
 body {
   font-family: "Work Sans", sans-serif;
   /* width: 71%; */
-    max-width: 1270px;
     margin: 0 auto;
 }
 
@@ -29,7 +28,10 @@ body {
 }
 
 
-
+main{
+    max-width: 1270px;
+    margin: 0 auto;
+}
 
 
 
@@ -37,11 +39,14 @@ body {
 /* sharied style end  */
 
 /* header style  */
+
 #header{
     background: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     display: flex;
     margin-bottom: 140px;
+    max-width: 1600px;
+    margin: 0 auto 140px ;
     
 
 }
