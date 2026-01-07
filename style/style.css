@@ -12,7 +12,7 @@ body {
 
 /* shaired style  */
 
-.header-container p,.failures-previous p,.failures-previous ul li{
+.header-container p,.failures-previous p,.failures-previous ul li,.plans-description{
     font-size: 16px;
     color: #444343;
     line-height: 26px;
@@ -33,6 +33,10 @@ main{
     margin: 0 auto;
 }
 
+.failures-previous h3,.plan-section-heading,.contact-section-heading{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 
 
@@ -43,6 +47,8 @@ main{
 #header{
     background: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
     margin-bottom: 140px;
     max-width: 1600px;
@@ -76,6 +82,9 @@ main{
 
 
 /* failures section  */
+section#failures {
+    margin-bottom: 130px;
+}
 .failures-container{
     display: flex;
     align-items: center;
@@ -84,13 +93,76 @@ main{
 .failures-img-container img{
     width: 670px;
 }
-.failures-previous h3{
-    font-size: 40px;
-    font-weight: bold;
+.failures-previous{
+    max-width: 416px;
 }
+
 .failures-previous p{
     margin-bottom: 16px;
 }
 .failures-previous ul li{
     list-style: none;
+}
+.failures-previous ul li i{
+    color: green;
+}
+
+
+/* failures section end  */
+
+
+/* plain section style  */
+section#plan-section{
+    margin-bottom: 130px;
+}
+.plain-heading-container{
+    margin-bottom: 55px;
+}
+
+.plan-section-heading,.plans-container{
+    text-align: center;
+}
+h3.plans-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plans-project-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* plan section end  */
+
+
+
+
+/* contact section  */
+
+.contact-section-container{
+     background:linear-gradient(90.00deg, rgba(241, 91, 34, 1),rgba(241, 91, 34, 0) 100%) ,url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 140px;
+    
+    
+    /* margin: 0 auto 140px ; */
+}
+
+.contact-section-container{
+  
+    padding: 64px;
+    border-radius: 8px;
+}
+
+.contact-section-heading{
+     max-width: 560px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.contact-section-container .call-button{
+    color: #F15B22;
+    background-color: white;
 }
